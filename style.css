@@ -112,23 +112,28 @@ p{
 
 @media (max-width: 500px) {
     body{
-        width: auto;
+        /* width: auto; */
         background-image: url(./images/bg-mobile.svg);
         background-repeat:no-repeat;
         background-size: cover;
         justify-content: center;
     }
+
     .main{
         flex-direction: column;
         flex-wrap: nowrap;
-        justify-content: center;
-        /* background-color: aliceblue; */
         height: auto;
-        width: auto;
+        /* width: auto; */
+    }
+
+    .container{
+        /* width: auto; */
+        justify-content: center;
     }
 
     .logo{
-        padding-left: 50px;
+       width:80%;
+     
     }
 
     .illustration_and_text{
@@ -136,13 +141,15 @@ p{
         padding: 10px;
         margin-left: 0;
         background-color: aqua;
+        width: 70%;
     }
 
     .illustration{
-        /* width:300px; */
+        width:300px;
     }
 
     .text-container{
         text-align: center;
+        width: 200px;
     }
 }
