@@ -142,7 +142,6 @@ p{
 
     .logo{
        width:80%;
-       /* new section */
        margin-bottom: 20px;
      
     }
@@ -185,6 +184,10 @@ p{
         /* text-align: center; */
         justify-content: center;
         width: auto;
+    }
+
+    .hud_icon{
+        margin-left: 0;
     }
 
     .social-icons{
