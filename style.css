@@ -88,16 +88,27 @@ p{
     margin-inline: 1200px;
 }
 
+
+
+
 .fb_icon{
-    font-size: 50px;
-    color: hsl(300, 69%, 71%);
+   width: 30px;
+    
+    
 }
 .fb_icon:hover{
     cursor: pointer;
-    /* fill: blue; */
-    /* color: tomato; */
-    background-color: aquamarine;
-    border-radius: 50%;
+    fill: hsl(300, 69%, 71%);
+    
+}
+
+.ic, .fb_icon{
+    /* fill:aquamarine; */
+    transition: color 0.3s ease;
+}
+
+.ic:hover, .fb{
+    fill: bisque;
 }
 
 .twit_icon{
@@ -107,6 +118,7 @@ p{
 .twit_icon:hover{
     cursor: pointer;
 }
+
 .inst_icon{
     margin-left: 30px;
 }
@@ -147,32 +159,24 @@ p{
     }
 
     .illustration_and_text{
-        /* display changed from grid to flex and margin-left from 10 to 0 */
         display: flex;
-        /* new code start */
         flex-direction: column;
         align-items: center;
         margin-left: 0;
-        /*new code end  */
-        /* padding: 10px; new comment*/
-       
-        /* background-color: aqua; */
-        /* width: auto; new comment */
     }
 
     .illustration{
-        /* width changed from auto to 80% and padding-left to 0 from 25px */
         width:80%;
         padding-left: 0;
 
     }
 
     .text-container{
-        /* new code start */
+        
         padding-left: 0;
         padding-top: 20px;
         text-align: center;
-        width: 90%;
+        width: auto;
         
     }
 
@@ -181,7 +185,7 @@ p{
     }
 
     .intro{
-        /* text-align: center; */
+       
         justify-content: center;
         width: auto;
     }
@@ -196,6 +200,7 @@ p{
         justify-content: center;
         
     }
-
+  
     
+
 }
