@@ -139,17 +139,20 @@ p{
     .illustration_and_text{
         display: grid;
         padding: 10px;
-        margin-left: 0;
-        background-color: aqua;
-        width: 70%;
+        margin-left: 10px;
+        /* background-color: aqua; */
+        width: auto;
     }
 
     .illustration{
-        width:300px;
+        width:90%;
+        padding-left: 25px;
+
     }
 
     .text-container{
         text-align: center;
-        width: 200px;
+        /* width: 10%; */
+        
     }
 }
