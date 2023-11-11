@@ -145,7 +145,7 @@ p{
     }
 
     .illustration{
-        width:90%;
+        width:auto;
         padding-left: 25px;
 
     }
@@ -153,6 +153,12 @@ p{
     .text-container{
         text-align: center;
         /* width: 10%; */
+        
+    }
+
+    .social-icons{
+        margin-inline: auto;
+        justify-content: center;
         
     }
 }
