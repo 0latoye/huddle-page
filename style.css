@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    text-wrap: wrap;
+}
+
+.main{
+    /* display: grid; */
+    margin-top: 50px;
+}
+
+h1{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.intro{
+    width: 500px;
+}
+
+.commbtn{
+   
+    padding: 15px;
+    color: hsl(257, 40%, 49%);
+    /* padding: 10px; */
+    border: none;
+    border-radius: 30px;
+    width: 35%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.commbtn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+.illustration_and_text{
+    display: flex;
+    height: auto;
+    margin-left: 60px;
+}
+
+.logo{
+    margin-bottom: 100px;
+    
+}
+
+.text-container{
+    padding-top: 45px;
+    padding-left: 60px;
+    
+   
+}
+
+.hud_icon{
+    margin-left: 60px;
+}
+
+.social-icons{
+    display: flex;
+    /* padding-inline: 90%; */
+    margin-inline: 1200px;
+}
+
+.fb_icon{
+    font-size: 50px;
+    color: hsl(300, 69%, 71%);
+}
+.fb_icon:hover{
+    cursor: pointer;
+    /* fill: blue; */
+    /* color: tomato; */
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.twit_icon{
+    margin-left: 30px;
+}
+
+.twit_icon:hover{
+    cursor: pointer;
+}
+.inst_icon{
+    margin-left: 30px;
+}
+.inst_icon:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    body{
+        width: auto;
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat:no-repeat;
+        background-size: cover;
+        justify-content: center;
+    }
+    .main{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        /* background-color: aliceblue; */
+        height: auto;
+        width: auto;
+    }
+
+    .logo{
+        padding-left: 50px;
+    }
+
+    .illustration_and_text{
+        display: grid;
+        padding: 10px;
+        margin-left: 0;
+        background-color: aqua;
+    }
+
+    .illustration{
+        /* width:300px; */
+    }
+
+    .text-container{
+        text-align: center;
+    }
+}
