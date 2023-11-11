@@ -16,7 +16,7 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
-    text-wrap: wrap;
+   
     
 
 }
@@ -24,7 +24,9 @@ body{
 .main{
     /* display: grid; */
     margin-top: 50px;
-}
+    height: 100vh;
+    display: grid;
+   }
 
 h1{
     color:white;
@@ -119,26 +121,23 @@ p{
         background-repeat:no-repeat;
         background-size: cover;
         justify-content: center;
-        /* new code start */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    /* end of new code  */
+        
+       
     }
 
     .main{
+        align-items: center;
+        display: flex;
         flex-direction: column;
-        align-items: center;/* new section */
-        /* flex-wrap: nowrap; */
-        /* height: auto; new comment */
-        /* width: auto; */
+        width: auto;
+        
     }
 
     .container{
-        /* width: auto; */
+        width: 95%;
         /* justify-content: center;new comment */
         text-align: center;
+        justify-content: center;
     }
 
     .logo{
@@ -173,17 +172,23 @@ p{
         /* new code start */
         padding-left: 0;
         padding-top: 20px;
-        /* text-align: center;new comment */
-        /* width: 10%; */
+        text-align: center;
+        width: 90%;
         
+    }
+
+    .header{
+        font-size:large;
     }
 
     .intro{
         /* text-align: center; */
         justify-content: center;
+        width: auto;
     }
 
     .social-icons{
+        margin-top: 80px;
         margin-inline: auto;
         justify-content: center;
         
